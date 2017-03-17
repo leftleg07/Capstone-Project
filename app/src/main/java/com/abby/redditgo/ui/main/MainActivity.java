@@ -93,7 +93,6 @@ public class MainActivity extends BaseActivity implements MainFragment.OnFragmen
     TextView mUserNameText;
 
     TextView mTitleView;
-    TextView mSubTitleView;
 
     private String mLastSubreddit = null;
     private Sorting mLastSorting = Sorting.HOT;
@@ -108,7 +107,6 @@ public class MainActivity extends BaseActivity implements MainFragment.OnFragmen
         ButterKnife.bind(this);
 
         mTitleView = (TextView) mToolbar.findViewById(R.id.toolbar_title);
-        mSubTitleView = (TextView) mToolbar.findViewById(R.id.toolbar_subtitle);
 
         setSupportActionBar(mToolbar);
         ActionBar ab = getSupportActionBar();

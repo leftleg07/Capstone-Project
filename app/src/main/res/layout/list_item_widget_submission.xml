@@ -5,8 +5,7 @@
     android:id="@+id/textView_title"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp"
-    android:text="Cubs win World Series" />
+    android:padding="8dp" />
 
 
 

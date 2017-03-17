@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="top"
-                    android:hint="compose comment"
+                    android:hint="@string/hint_reply"
                     android:inputType="textMultiLine"
                     android:minLines="10" />
             </android.support.design.widget.TextInputLayout>
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="?attr/actionBarSize"
-                android:text="submit"
+                android:text="@string/submit"
                 android:textStyle="bold" />
 
         </LinearLayout>

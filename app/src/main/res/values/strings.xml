@@ -25,11 +25,12 @@
     <string name="filter_controversial">Controversial</string>
     <string name="filter_top">Top</string>
 
-    <string name="submit">submitted {hour} hours ago by {author} to /r/{subreddit}</string>
+    <string name="submit_format">submitted {hour} hours ago by {author} to /r/{subreddit}</string>
+    <string name="submit">submit</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_login">Logß in</string>
+    <string name="title_activity_login">Log in</string>
 
     <!-- Strings related to signin -->
     <string name="prompt_username">Username</string>
@@ -46,4 +47,6 @@
     <string name="filter_qa">QA</string>
     <string name="navigation_description">close</string>
     <string name="title_widget_stock">RedditGo</string>
+    <string name="hint_reply">compose comment</string>
+    <string name="log_in">log in</string>
 </resources>

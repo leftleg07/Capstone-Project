@@ -207,7 +207,7 @@ public class SubmissionAdapter extends CursorRecyclerViewAdapter<SubmissionAdapt
         holder.mTitleText.setText(title);
 
         long hours = TimeUnit.MILLISECONDS.toHours(System.currentTimeMillis() - createdTime);
-        holder.mSubmitText.setText(Phrase.from(mContext, R.string.submit).put("hour", String.valueOf(hours)).put("author", author).put("subreddit", subreddit).format());
+        holder.mSubmitText.setText(Phrase.from(mContext, R.string.submit_format).put("hour", String.valueOf(hours)).put("author", author).put("subreddit", subreddit).format());
 
         holder.mScoreText.setText(String.valueOf(score));
         holder.mCommentsText.setText(String.valueOf(numComments));
